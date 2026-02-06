@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Devika, Will You Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-bg" id="heartsContainer"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">💕 T & D 💕</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#love-story">Our Story</a></li>
+            <li><a href="#quiz">Love Quiz</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#proposal">Proposal</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="heart-pulse">💗</div>
+            <h1 class="hero-title">
+                <span class="greeting">Dear</span>
+                <span class="name-highlight">Devika</span>
+            </h1>
+            <p class="hero-subtitle">You're the heartbeat to my rhythm, the cure to my soul</p>
+            <div class="nurse-badge">
+                <span class="badge-icon">👩‍⚕️</span>
+                <span class="badge-text">My Future Nurse, My Forever Love</span>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="mouse"></div>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="floating-heart h1">❤️</div>
+            <div class="floating-heart h2">💕</div>
+            <div class="floating-heart h3">💖</div>
+            <div class="floating-heart h4">💗</div>
+            <div class="floating-heart h5">💘</div>
+        </div>
+    </section>
+
+    <!-- Love Counter Section -->
+    <section class="love-counter">
+        <div class="container">
+            <h2 class="section-title">Every Second With You Counts</h2>
+            <div class="counter-grid">
+                <div class="counter-card">
+                    <div class="counter-icon">💝</div>
+                    <div class="counter-value" id="days">0</div>
+                    <div class="counter-label">Days</div>
+                </div>
+                <div class="counter-card">
+                    <div class="counter-icon">💓</div>
+                    <div class="counter-value" id="hours">0</div>
+                    <div class="counter-label">Hours</div>
+                </div>
+                <div class="counter-card">
+                    <div class="counter-icon">💞</div>
+                    <div class="counter-value" id="minutes">0</div>
+                    <div class="counter-label">Minutes</div>
+                </div>
+                <div class="counter-card">
+                    <div class="counter-icon">💕</div>
+                    <div class="counter-value" id="seconds">0</div>
+                    <div class="counter-label">Seconds</div>
+                </div>
+            </div>
+            <p class="counter-subtitle">Until Valentine's Day 2026! 💘</p>
+        </div>
+    </section>
+
+    <!-- Love Story Section -->
+    <section id="love-story" class="love-story">
+        <div class="container">
+            <h2 class="section-title">Our Love Story</h2>
+            <div class="story-timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">✨</div>
+                        <h3>The First Glance</h3>
+                        <p>When our eyes first met, I knew my heart had found its home. You were studying to heal others, but you didn't know you were already healing me.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">💬</div>
+                        <h3>First Conversation</h3>
+                        <p>Every word you spoke was like medicine to my soul. Your passion for nursing showed me how beautiful your heart truly is.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">💕</div>
+                        <h3>Falling in Love</h3>
+                        <p>Day by day, my feelings grew stronger. You became my favorite notification, my sweetest daydream, my most beautiful reality.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">💖</div>
+                        <h3>Today & Forever</h3>
+                        <p>Now, I can't imagine my life without you. You're not just studying to be a nurse – you're already the one who takes care of my heart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons I Love You Section -->
+    <section class="reasons-section">
+        <div class="container">
+            <h2 class="section-title">10 Reasons Why I Love You</h2>
+            <div class="reasons-grid">
+                <div class="reason-card" style="--delay: 0.1s">
+                    <div class="reason-number">01</div>
+                    <div class="reason-icon">👩‍⚕️</div>
+                    <p>Your dedication to nursing shows how caring your heart is</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.2s">
+                    <div class="reason-number">02</div>
+                    <div class="reason-icon">😊</div>
+                    <p>Your smile lights up even my darkest days</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.3s">
+                    <div class="reason-number">03</div>
+                    <div class="reason-icon">💪</div>
+                    <p>Your strength and determination inspire me daily</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.4s">
+                    <div class="reason-number">04</div>
+                    <div class="reason-icon">🎭</div>
+                    <p>Your sense of humor makes every moment special</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.5s">
+                    <div class="reason-number">05</div>
+                    <div class="reason-icon">💝</div>
+                    <p>The way you care about others is truly beautiful</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.6s">
+                    <div class="reason-number">06</div>
+                    <div class="reason-icon">🌟</div>
+                    <p>You make me want to be a better person</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.7s">
+                    <div class="reason-number">07</div>
+                    <div class="reason-icon">🤗</div>
+                    <p>Your support means the world to me</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.8s">
+                    <div class="reason-number">08</div>
+                    <div class="reason-icon">✨</div>
+                    <p>Every moment with you feels magical</p>
+                </div>
+                <div class="reason-card" style="--delay: 0.9s">
+                    <div class="reason-number">09</div>
+                    <div class="reason-icon">🏠</div>
+                    <p>You feel like home to me</p>
+                </div>
+                <div class="reason-card" style="--delay: 1s">
+                    <div class="reason-number">10</div>
+                    <div class="reason-icon">♾️</div>
+                    <p>I simply cannot imagine my life without you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Quiz Section -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <h2 class="section-title">💕 Love Quiz: How Well Do You Know Thejas? 💕</h2>
+            <p class="quiz-subtitle">Answer these questions to unlock a special surprise!</p>
+            
+            <div class="quiz-container" id="quizContainer">
+                <div class="quiz-progress">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="quiz-card" id="quizCard">
+                    <div class="question-number">Question <span id="currentQ">1</span> of <span id="totalQ">5</span></div>
+                    <h3 class="question" id="question"></h3>
+                    <div class="options" id="options"></div>
+                </div>
+            </div>
+            
+            <div class="quiz-result hidden" id="quizResult">
+                <div class="result-content">
+                    <div class="result-icon">💯</div>
+                    <h3 id="resultTitle"></h3>
+                    <p id="resultMessage"></p>
+                    <button class="btn-primary" onclick="restartQuiz()">Try Again 💕</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Our Memory Lane</h2>
+            <p class="gallery-subtitle">Every picture tells our story of love</p>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">💑</span>
+                        <span class="placeholder-text">Our First Photo Together</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🎓</span>
+                        <span class="placeholder-text">Your Nursing Journey</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🌅</span>
+                        <span class="placeholder-text">Sunset Memories</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🎂</span>
+                        <span class="placeholder-text">Celebrations</span>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">💕</span>
+                        <span class="placeholder-text">Special Moments</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">😂</span>
+                        <span class="placeholder-text">Funny Moments</span>
+                    </div>
+                </div>
+            </div>
+            <p class="gallery-note">💡 Add your favorite photos here to make it even more special!</p>
+        </div>
+    </section>
+
+    <!-- Love Letter Section -->
+    <section class="letter-section">
+        <div class="container">
+            <div class="letter-wrapper">
+                <div class="envelope" id="envelope" onclick="openLetter()">
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-body">
+                        <span class="envelope-text">Click to Open 💌</span>
+                    </div>
+                </div>
+                <div class="letter hidden" id="letter">
+                    <div class="letter-content">
+                        <h2>My Dearest Devika,</h2>
+                        <p>As you study to become a nurse and heal the world, I want you to know that you've already healed the deepest parts of my heart.</p>
+                        <p>Every time I see you studying those thick medical books, working hard during your clinicals, and caring for patients, I fall more in love with the kindness that defines you.</p>
+                        <p>You're not just studying to save lives – you've already saved mine by just being you.</p>
+                        <p>Happy Valentine's Day, my beautiful nurse-to-be. 💕</p>
+                        <div class="letter-signature">
+                            <p>Forever Yours,</p>
+                            <p class="signature">Thejas 💕</p>
+                        </div>
+                    </div>
+                    <button class="btn-secondary" onclick="closeLetter()">Close Letter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposal Section -->
+    <section id="proposal" class="proposal-section">
+        <div class="container">
+            <div class="proposal-wrapper">
+                <div class="proposal-decoration">
+                    <div class="ring-box">
+                        <div class="ring">💍</div>
+                    </div>
+                </div>
+                <h2 class="proposal-title">Devika...</h2>
+                <p class="proposal-message">
+                    From the moment you walked into my life, everything changed. 
+                    Your smile became my favorite sight, your laugh my favorite sound, 
+                    and your happiness my only goal.
+                </p>
+                <p class="proposal-question">Will You Be My Valentine? 💕</p>
+                
+                <div class="proposal-buttons" id="proposalButtons">
+                    <button class="btn-yes" id="yesBtn" onclick="handleYes()">
+                        <span class="btn-icon">💖</span>
+                        <span>Yes, I Will!</span>
+                    </button>
+                    <button class="btn-no" id="noBtn" onmouseover="moveButton()">
+                        <span class="btn-icon">💔</span>
+                        <span>Let me think...</span>
+                    </button>
+                </div>
+                
+                <div class="celebration hidden" id="celebration">
+                    <div class="confetti-container" id="confettiContainer"></div>
+                    <div class="celebration-content">
+                        <div class="celebration-hearts">💕💖💕</div>
+                        <h2>She Said YES! 🎉</h2>
+                        <p>Thank you for making me the happiest person alive!</p>
+                        <p class="celebration-names">Thejas 💕 Devika</p>
+                        <p class="celebration-date">Valentine's Day 2026</p>
+                        <div class="fireworks">
+                            <span>🎆</span>
+                            <span>🎇</span>
+                            <span>✨</span>
+                            <span>🎆</span>
+                            <span>🎇</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-hearts">
+                <span>💕</span>
+                <span>💖</span>
+                <span>💗</span>
+                <span>💕</span>
+            </div>
+            <p class="footer-text">Made with infinite love for <strong>Devika</strong></p>
+            <p class="footer-credit">By <strong>Thejas</strong> 💕</p>
+            <p class="footer-year">Valentine's Day 2026</p>
+            <div class="footer-nurse">
+                <span>👩‍⚕️</span>
+                <span>To my future nurse, you already heal my heart every day</span>
+                <span>💉💕</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Music Toggle -->
+    <div class="music-toggle" id="musicToggle" onclick="toggleMusic()">
+        <span id="musicIcon">🎵</span>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="/Red+Roses+for+Devika.MP3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
